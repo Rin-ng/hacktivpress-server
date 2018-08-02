@@ -17,6 +17,7 @@ const ArticleSchema = new Schema({
     },
     category:{
         type: String, 
+        required: "Please put category"
     }
 }, {timestamps:true});
 
